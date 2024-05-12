@@ -83,10 +83,10 @@ plt.plot(valid['timestamp'], valid['Prediction'], color='r')
 plt.legend(['Train', 'Prediction'], loc='lower right')
 plt.show()
 
-# Wypisanie przewidywanych wartości dla kolejnych 7 dni.
+# Wypisanie przewidywanych wartości dla kolejnych 7 dni
 last_7_days_predictions = predictions[-1]  # Ostatnie przewidywania z testowego zbioru danych
 print("Przewidywane wartości na kolejne 7 dni:")
 for i, price in enumerate(last_7_days_predictions, 1):
     print(f"Dzień {i}: {price:.2f} USD")
 
-
+    #############blablbabla
