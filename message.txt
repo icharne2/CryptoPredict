@@ -89,4 +89,4 @@ print("Przewidywane wartości na kolejne 7 dni:")
 for i, price in enumerate(last_7_days_predictions, 1):
     print(f"Dzień {i}: {price:.2f} USD")
 
-    #############blablbabla
+
